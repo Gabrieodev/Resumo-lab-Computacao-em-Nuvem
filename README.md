@@ -303,3 +303,89 @@ Com suporte para várias linguagens como .NET, Java, Node.js, Python e PHP, ofer
 
 📌 *Esse desafio foi fundamental para compreender as opções de computação oferecidas pela Azure e como aplicá-las de forma estratégica em diferentes cenários de negócio.*
 
+# 🎁 BÔNUS – Identidade, Acesso e Segurança no Azure
+
+A **segurança na nuvem** é um dos pilares fundamentais do Azure. Este módulo bônus explora os serviços e práticas que garantem **controle de identidade, autenticação e acesso condicional**, protegendo os recursos com eficiência e inteligência.
+
+---
+
+## 🧑‍💼 Identidade, Acesso e Segurança
+
+Esse conceito abrange:
+
+- **Gestão de identidades de usuários, dispositivos e aplicativos**
+- **Controle de acesso baseado em funções**
+- **Políticas de autenticação e segurança avançadas**
+
+🎯 O objetivo é garantir que **somente as pessoas certas** tenham **acesso ao que precisam**, **quando precisam**, e **com segurança**.
+
+---
+
+## 🔐 Microsoft Entra ID e Domain Services
+
+### ✅ Microsoft Entra ID (antigo Azure AD)
+
+É a **solução de gerenciamento de identidades na nuvem** da Microsoft, com funcionalidades como:
+
+- Autenticação de usuários e dispositivos
+- Integração com milhares de aplicações SaaS
+- Single Sign-On (SSO)
+- Multi-Factor Authentication (MFA)
+- Gerenciamento de usuários, grupos e permissões
+
+### 🖥️ Azure AD Domain Services
+
+Oferece um domínio gerenciado para recursos legados que dependem de:
+
+- **Kerberos e NTLM**
+- **LDAP**
+- **Domain Join**, sem necessidade de servidores de domínio locais
+
+Ideal para modernizar sem reestruturar aplicações antigas.
+
+---
+
+## 🔑 Autenticação e Autorização
+
+### 🔓 Autenticação
+
+Verifica a **identidade de um usuário**. Pode usar métodos como:
+
+- Senhas
+- Biometria
+- MFA (Autenticação Multifator)
+
+### 🛡️ Autorização
+
+Determina **o que o usuário pode fazer** após ser autenticado. Isso é controlado por:
+
+- Grupos e funções (RBAC)
+- Políticas de acesso
+- Princípios de menor privilégio
+
+🔐 **Autenticação + Autorização = Segurança de Acesso Eficiente**
+
+---
+
+## 📲 Acesso Condicional
+
+Permite criar políticas automatizadas de segurança com base em:
+
+- **Localização do usuário**
+- **Dispositivo utilizado**
+- **Nível de risco**
+- **Tipo de aplicativo acessado**
+
+Exemplo de política:
+> “Se o usuário estiver acessando de fora do país e usando um dispositivo não gerenciado, exigir MFA.”
+
+⚙️ Combina **inteligência em tempo real** com **ações automatizadas**, aumentando a segurança sem prejudicar a experiência do usuário.
+
+---
+
+🔐 *Este bônus foi essencial para entender como o Azure protege dados, identidades e acessos com tecnologias modernas e escaláveis.*
+
+---
+
+🙏 **Agradecimento especial à [DIO](https://www.dio.me/)** por proporcionar esse aprendizado de qualidade, acessível e prático sobre os principais recursos e fundamentos do Microsoft Azure.  
+Essa jornada tem sido essencial para minha evolução na nuvem! 🚀
