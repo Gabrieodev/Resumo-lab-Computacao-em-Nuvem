@@ -225,4 +225,81 @@ A arquitetura do Azure é composta por **elementos fundamentais** que ajudam a o
 
 📌 *Esse desafio aprofunda o entendimento sobre como o Azure estrutura e organiza seus recursos, algo essencial para quem deseja trabalhar com nuvem de forma profissional e segura.*
 
+> # 🚀 Desafio 5
+
+## ⚙️ Computação e Rede no Azure
+
+A plataforma Azure oferece diversos serviços voltados para **computação em nuvem**, permitindo que empresas hospedem, executem e escalem aplicações de forma eficiente. Entre os principais recursos estão as **máquinas virtuais**, **funções serverless**, **contêineres** e **serviços de aplicativos**, todos com suporte à alta disponibilidade e gerenciamento simplificado.
+
+---
+
+## 🖥️ Serviços de Computação e Máquinas Virtuais do Azure
+
+As **Máquinas Virtuais (VMs)** no Azure oferecem capacidade de computação sob demanda, permitindo:
+
+- Escolha de sistemas operacionais (Windows, Linux)
+- Escalabilidade vertical e horizontal
+- Criação rápida de ambientes de desenvolvimento ou produção
+- Controle total sobre o sistema e instalação de aplicações personalizadas
+
+São ideais para workloads mais tradicionais, como bancos de dados, ERPs e aplicações legadas.
+
+---
+
+## 🧩 Conjuntos de Disponibilidade de Máquinas Virtuais
+
+Os **Conjuntos de Disponibilidade** garantem que as VMs implantadas estejam distribuídas entre diferentes:
+
+- Domínios de falha (falha física, como energia)
+- Domínios de atualização (atualizações planejadas do Azure)
+
+🔒 Isso assegura **alta disponibilidade e resiliência** para aplicações críticas, reduzindo o risco de downtime simultâneo.
+
+---
+
+## 🖥️ Área de Trabalho Virtual e Contêineres do Azure
+
+### 💼 Área de Trabalho Virtual
+
+Permite fornecer **ambientes de desktop virtualizados** para colaboradores em qualquer lugar, com segurança e gerenciamento centralizado. É muito utilizado para:
+
+- Home office
+- Ambientes escolares ou corporativos padronizados
+- Acesso seguro a softwares empresariais
+
+### 📦 Contêineres
+
+Contêineres como o **Azure Kubernetes Service (AKS)** e o **Container Instances** proporcionam:
+
+- Execução leve e isolada de aplicações
+- Facilidade no deploy contínuo e versionamento
+- Portabilidade entre ambientes
+
+São perfeitos para arquiteturas modernas baseadas em microserviços.
+
+---
+
+## ⚡ Azure Functions e Serviços de Aplicativo do Azure
+
+### ⚙️ Azure Functions
+
+Permite executar **funções pequenas e específicas** sem precisar manter uma infraestrutura ativa. Baseado em eventos, ideal para:
+
+- Processamento de dados em tempo real
+- Integrações entre sistemas
+- Automatizações simples e escaláveis
+
+### 🌐 App Services (Serviços de Aplicativo)
+
+O Azure App Service é uma plataforma de hospedagem gerenciada para:
+
+- Aplicações web
+- APIs REST
+- Aplicativos móveis
+
+Com suporte para várias linguagens como .NET, Java, Node.js, Python e PHP, oferece alta disponibilidade, escalabilidade automática e integração com DevOps.
+
+---
+
+📌 *Esse desafio foi fundamental para compreender as opções de computação oferecidas pela Azure e como aplicá-las de forma estratégica em diferentes cenários de negócio.*
 
