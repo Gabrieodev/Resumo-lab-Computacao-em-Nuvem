@@ -172,4 +172,57 @@ Cada modelo atende diferentes tipos de projetos e níveis de maturidade técnica
 
 📌 *Esse desafio reforça o entendimento sobre como consumir e gerenciar serviços na nuvem de maneira eficiente, segura e estratégica.*
 
+> # 🚀 Desafio 4
+
+## 🏗️ Componentes de Arquitetura do Azure
+
+A arquitetura do Azure é composta por **elementos fundamentais** que ajudam a organizar, distribuir e gerenciar os recursos em nuvem. Compreender esses componentes é essencial para projetar soluções escaláveis, seguras e eficientes.
+
+---
+
+### 🌍 Região e Pares de Região
+
+- **Região (Region):** É um conjunto geográfico de datacenters onde os recursos do Azure são implementados. Exemplo: *Brazil South*, *East US*, *West Europe*.
+- **Pares de Região (Region Pairs):**
+  - São duas regiões emparelhadas dentro da mesma área geográfica para garantir **alta disponibilidade e recuperação de desastres**.
+  - Cada par é planejado para que uma região complemente a outra em caso de falha.
+
+🔁 Isso assegura replicação de dados e serviços críticos com **menor latência e maior resiliência**.
+
+---
+
+### 🧱 Grupos de Recursos (Resource Groups)
+
+- **Agrupamento lógico** de recursos como VMs, bancos de dados, redes, etc.
+- Permite aplicar:
+  - Políticas de acesso (RBAC)
+  - Monitoramento
+  - Tags
+  - Automação e gerenciamento
+
+📦 **Boa prática:** Agrupar recursos que compartilham o mesmo ciclo de vida, como uma aplicação inteira ou um ambiente (desenvolvimento, produção).
+
+---
+
+### 💼 Assinatura do Azure (Subscription)
+
+- Cada **assinatura** representa uma unidade de cobrança e controle.
+- Permite:
+  - Gerenciar recursos com diferentes limites de orçamento
+  - Isolar ambientes ou departamentos
+  - Delegar permissões específicas
+
+💳 **Importante:** Cada assinatura está associada a um tenant do Azure Active Directory.
+
+---
+
+### 🗂️ Grupos de Gerenciamento (Management Groups)
+
+- **Camada acima das assinaturas**, usada para aplicar políticas e controles em **múltiplas assinaturas ao mesmo tempo**.
+- Ideal para empresas com grande escala e várias assinaturas em uso.
+
+---
+
+📌 *Esse desafio aprofunda o entendimento sobre como o Azure estrutura e organiza seus recursos, algo essencial para quem deseja trabalhar com nuvem de forma profissional e segura.*
+
 
