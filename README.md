@@ -1,4 +1,4 @@
-# 🚀 Desafio 1
+> # 🚀 Desafio 1
 
 ## ✅ O que foi aprendido
 
@@ -63,7 +63,7 @@ Essa organização facilita a navegação e permite encontrar rapidamente os rec
 
 📌 *Esse desafio foi essencial para entender os pilares da computação em nuvem e como utilizar o Azure de forma prática e eficiente.*
 
-# 🚀 Desafio 2
+> # 🚀 Desafio 2
 
 ## ✅ Benefícios da Nuvem Azure
 
@@ -96,4 +96,80 @@ Essas características ajudam empresas a lidarem com picos de acesso, campanhas 
 ---
 
 📌 *Esse desafio reforça como a Nuvem Azure não apenas moderniza a infraestrutura de TI, mas também contribui para decisões mais estratégicas, seguras e eficientes.*
+
+> # 🚀 Desafio 3
+
+## ☁️ Tipos de Serviço de Nuvem na Azure
+
+A Azure oferece três modelos principais de serviços em nuvem, cada um com diferentes níveis de controle, flexibilidade e responsabilidade:
+
+---
+
+### 🧱 IaaS – Infrastructure as a Service
+
+O IaaS fornece infraestrutura sob demanda, como máquinas virtuais, redes e armazenamento. Esse modelo oferece **alto nível de controle** ao usuário, que é responsável por:
+
+- Instalar e gerenciar sistemas operacionais
+- Configurar o ambiente
+- Manter os aplicativos
+
+🔧 É ideal para quem precisa de flexibilidade total na configuração da infraestrutura.
+
+---
+
+### ⚙️ PaaS – Platform as a Service
+
+No modelo PaaS, a Azure gerencia toda a infraestrutura, incluindo servidores, rede e sistema operacional. O usuário pode focar apenas no desenvolvimento e deploy de aplicações, sem se preocupar com:
+
+- Atualizações do sistema
+- Escalabilidade de infraestrutura
+- Gerenciamento de servidores
+
+🚀 É perfeito para desenvolvedores que querem mais produtividade com menos sobrecarga de infraestrutura.
+
+---
+
+### 💻 SaaS – Software as a Service
+
+O SaaS entrega software pronto para uso, acessado pela internet. Toda a responsabilidade de manutenção, atualização e segurança é da Microsoft. Exemplos:
+
+- Microsoft 365
+- Dynamics 365
+- OneDrive
+
+📦 Usuários finais apenas consomem os serviços, sem necessidade de gerenciamento técnico.
+
+---
+
+## 🛡️ Modelo de Responsabilidade Compartilhada
+
+A **responsabilidade entre provedor e cliente** é dividida conforme o modelo de serviço. A Azure é responsável pela **segurança física, rede, datacenters e hardware**, enquanto o cliente assume responsabilidades como:
+
+- Gerenciar identidades e acessos
+- Proteger os dados armazenados
+- Configurar seus próprios serviços e aplicações
+
+🔐 Esse modelo garante segurança sem comprometer a flexibilidade.
+
+---
+
+## 🔁 Revisão
+
+- **IaaS:** Mais controle, mais responsabilidade
+- **PaaS:** Foco em desenvolvimento, menos gerenciamento
+- **SaaS:** Soluções prontas, responsabilidade total da Azure
+
+Cada modelo atende diferentes tipos de projetos e níveis de maturidade técnica, permitindo que empresas escolham a melhor abordagem para seus objetivos.
+
+---
+
+## 🖼️ Ilustração
+
+<img src="https://github.com/user-attachments/assets/5f746656-3f1d-4c18-aee4-30bc3208b964" alt="Modelos de Nuvem" width="600"/>
+
+
+---
+
+📌 *Esse desafio reforça o entendimento sobre como consumir e gerenciar serviços na nuvem de maneira eficiente, segura e estratégica.*
+
 
